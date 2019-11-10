@@ -1,7 +1,9 @@
 public interface Queue<T> {
-    public Queue<T> enQueue(T t);
-    public Queue<T> deQueue();
-    public T head();
-    public boolean isEmpty();
-    public int size();
+    Queue<T> enQueue(T t);
+
+    Queue<T> deQueue();
+
+    T head();
+
+    boolean isEmpty();
 }
